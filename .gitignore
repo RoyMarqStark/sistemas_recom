@@ -1,0 +1,32 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Carpeta de datos (los archivos CSV superan los 100 MB permitidos por GitHub)
+data/*
+!data/.gitkeep
+*.csv
+*.zip
+*.tar.gz
+
+# Checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
